@@ -28,4 +28,7 @@ https://www.vivaolinux.com.br/artigo/Mamae-quero-descompactar-e-tambem-compactar
 
 ---------------------------------------------------------
 
+Configuração irssi:
 https://www.vivaolinux.com.br/etc/config-leaf
+
+---------------------------------------------------------
