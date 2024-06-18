@@ -32,3 +32,9 @@ Configuração irssi:
 https://www.vivaolinux.com.br/etc/config-leaf
 
 ---------------------------------------------------------
+
+Resolvendo o problema de configuracao do relogio e fuso horario.
+Instalar e configurar:
+https://ntp.br/guia/linux/
+
+---------------------------------------------------------
