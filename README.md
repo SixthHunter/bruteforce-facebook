@@ -25,3 +25,7 @@ https://www.youtube.com/watch?v=JpqsA1pFVCw&list=PLURDXrCGvhnboKBhuhZQy0nojkRBtJ
 
 Compactar e descompactar arquivos:
 https://www.vivaolinux.com.br/artigo/Mamae-quero-descompactar-e-tambem-compactar-arquivos-no-terminal/
+
+---------------------------------------------------------
+
+https://www.vivaolinux.com.br/etc/config-leaf
