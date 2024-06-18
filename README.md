@@ -7,6 +7,8 @@ https://www.youtube.com/watch?v=xnJlzxIxAVo
 
 $ sudo apt install bluez -y && sudo apt install blueman -y && sudo systemctl enable bluetooth.service && sudo systemctl start bluetooth.service
 
+https://www.instructables.com/USB-Pesistence-in-Ventoy/
+
 Montando pendrive:
 https://plus.diolinux.com.br/t/tutorial-como-usar-montar-um-pendrive-no-linux-manualmente/24302
 
