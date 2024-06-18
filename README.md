@@ -1,4 +1,4 @@
-# bruteforce facebook
+# Ajuda!
 
 Ainda estamos em desenvolvimento.
 
@@ -21,3 +21,7 @@ https://www.youtube.com/watch?v=lmCE2tHt2Xs
 onfigurações essenciais: KALI LINUX e VIRTUALBOX!:
 https://www.youtube.com/watch?v=JpqsA1pFVCw&list=PLURDXrCGvhnboKBhuhZQy0nojkRBtJ_SF
 
+---------------------------------------------------------
+
+Compactar e descompactar arquivos:
+https://www.vivaolinux.com.br/artigo/Mamae-quero-descompactar-e-tambem-compactar-arquivos-no-terminal/
