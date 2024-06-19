@@ -67,3 +67,4 @@ nomeusuario  ALL=(ALL) ALL
 
 XFCE4:
 https://wiki.debian.org/pt_BR/Xfce
+https://linuxhint.com/install_xfce_debian/
