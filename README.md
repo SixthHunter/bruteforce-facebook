@@ -30,6 +30,11 @@ https://www.vivaolinux.com.br/artigo/Mamae-quero-descompactar-e-tambem-compactar
 
 ---------------------------------------------------------
 
+Instalando pacotes .deb:
+https://medium.com/@habbema/linux-instala%C3%A7%C3%A3o-de-pacotes-71a35a353282
+
+---------------------------------------------------------
+
 Configuração irssi:
 https://www.vivaolinux.com.br/etc/config-leaf
 
