@@ -64,3 +64,6 @@ Digitar:
 nomeusuario  ALL=(ALL) ALL
 
 ---------------------------------------------------------
+
+XFCE4:
+https://wiki.debian.org/pt_BR/Xfce
