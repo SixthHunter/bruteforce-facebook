@@ -45,3 +45,10 @@ Instalar e configurar:
 https://ntp.br/guia/linux/
 
 ---------------------------------------------------------
+
+Aumentar o tamanho da unidade virtual VBox:
+cd C:\Program Files\Oracle\VirtualBox
+vboxmanage modifyhd "Unidade:\Caminho\arquivo.vdi" --resize 122880
+
+---------------------------------------------------------
+
