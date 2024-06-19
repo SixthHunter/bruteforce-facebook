@@ -52,3 +52,11 @@ vboxmanage modifyhd "Unidade:\Caminho\arquivo.vdi" --resize 122880
 
 ---------------------------------------------------------
 
+Dando permissoes:
+Abrir o arquivo:
+nano /etc/sudoers
+
+Digitar:
+nomeusuario  ALL=(ALL) ALL
+
+---------------------------------------------------------
