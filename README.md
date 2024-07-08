@@ -84,6 +84,14 @@ https://www.tenable.com/downloads/nessus?loginAttempted=true
 https://www.tenable.com/downloads?loginAttempted=true
 sudo dpkg -i arquivo.deb
 
+Iniciando o serviço:
+sudo /bin/systemctl start nessusd.service
+
+Para configurar abra o navegador e digite:
+https://kali:8834
+
+Para iniciar:
+/etc/init.d/nessusd start
 ---------------------------------------------------------
 
 Visual Studio Code
