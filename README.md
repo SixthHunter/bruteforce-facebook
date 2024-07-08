@@ -32,6 +32,14 @@ https://www.vivaolinux.com.br/artigo/Mamae-quero-descompactar-e-tambem-compactar
 
 Instalando pacotes .deb:
 https://medium.com/@habbema/linux-instala%C3%A7%C3%A3o-de-pacotes-71a35a353282
+sudo dpkg -i nome_do_pacote.deb
+
+Se houver dependências não atendidas, você pode usar o comando:
+sudo apt-get install -f
+para corrigir essas dependências automaticamente.
+
+Outra forma de instalar:
+sudo apt install ./nome_do_pacote.deb
 
 ---------------------------------------------------------
 
@@ -68,3 +76,17 @@ nomeusuario  ALL=(ALL) ALL
 XFCE4:
 https://wiki.debian.org/pt_BR/Xfce
 https://linuxhint.com/install_xfce_debian/
+
+---------------------------------------------------------
+
+NESSUS
+https://www.tenable.com/downloads/nessus?loginAttempted=true
+https://www.tenable.com/downloads?loginAttempted=true
+sudo dpkg -i arquivo.deb
+
+---------------------------------------------------------
+
+Visual Studio Code
+https://code.visualstudio.com/docs/?dv=linux64_deb
+
+---------------------------------------------------------
