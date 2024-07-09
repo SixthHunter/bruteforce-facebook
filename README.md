@@ -101,5 +101,6 @@ https://code.visualstudio.com/docs/?dv=linux64_deb
 
 Dicas Linux
 https://edpsblog.wordpress.com/
+https://www.certificacaolinux.com.br/portas-abertas-no-linux/
 
 ---------------------------------------------------------
