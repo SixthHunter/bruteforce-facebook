@@ -98,3 +98,8 @@ Visual Studio Code
 https://code.visualstudio.com/docs/?dv=linux64_deb
 
 ---------------------------------------------------------
+
+Dicas Linux
+https://edpsblog.wordpress.com/
+
+---------------------------------------------------------
