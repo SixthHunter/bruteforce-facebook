@@ -92,6 +92,7 @@ https://kali:8834
 
 Para iniciar:
 /etc/init.d/nessusd start
+
 ---------------------------------------------------------
 
 Visual Studio Code
@@ -104,5 +105,8 @@ https://edpsblog.wordpress.com/
 https://www.explorandoti.com.br/principais-comentos-do-iptables/
 https://www.certificacaolinux.com.br/portas-abertas-no-linux/
 https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules-pt
+
+DOCUMENTAÇÃO DEBIAN:
+https://www.debian.org/releases/stable/i386/release-notes/ch-about.pt-br.html
 
 ---------------------------------------------------------
