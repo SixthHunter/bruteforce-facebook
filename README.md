@@ -101,6 +101,8 @@ https://code.visualstudio.com/docs/?dv=linux64_deb
 
 Dicas Linux
 https://edpsblog.wordpress.com/
+https://www.explorandoti.com.br/principais-comentos-do-iptables/
 https://www.certificacaolinux.com.br/portas-abertas-no-linux/
+https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules-pt
 
 ---------------------------------------------------------
