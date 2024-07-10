@@ -61,7 +61,7 @@ vboxmanage modifyhd "Unidade:\Caminho\arquivo.vdi" --resize 122880
 ---------------------------------------------------------
 
 Fonte: 
-  https://cursos.alura.com.br/forum/topico-sugestao-resolvido-user-is-not-in-the-sudoers-file-this-incident-will-be-reported-259842
+https://cursos.alura.com.br/forum/topico-sugestao-resolvido-user-is-not-in-the-sudoers-file-this-incident-will-be-reported-259842
   https://www.vivaolinux.com.br/dica/Como-resetar-a-senha-do-root-no-Debian-e-no-Ubuntu
 
 Dando permissoes:
