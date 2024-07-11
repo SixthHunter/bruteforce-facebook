@@ -111,17 +111,10 @@ https://www.debian.org/releases/stable/i386/release-notes/ch-about.pt-br.html
 
 ---------------------------------------------------------
 
-deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
-# deb-src http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
-
-deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
-# deb-src http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
-
-# bookworm-updates, to get updates before a point release is made;
-# see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports
-deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
-# deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
-
-# bookworm-backports, previously on backports.debian.org
-deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
-# deb-src http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+Repositório:
+https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
+https://www.vivaolinux.com.br/topico/Iniciantes-no-Linux/Repositorio-do-kali
+https://linuxdicasesuporte.blogspot.com/2023/06/sourceslist-completa-para-o-debian-12.html
+https://tracker.debian.org/pkg/gcc-mingw-w64
+https://www.tutorlinux.com.br/2023/06/03/sources-list-completa-debian-12-bookworm/
+https://manpages.debian.org/bookworm/apt/sources.list.5.pt.html
