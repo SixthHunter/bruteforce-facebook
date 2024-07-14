@@ -118,3 +118,13 @@ https://linuxdicasesuporte.blogspot.com/2023/06/sourceslist-completa-para-o-debi
 https://tracker.debian.org/pkg/gcc-mingw-w64
 https://www.tutorlinux.com.br/2023/06/03/sources-list-completa-debian-12-bookworm/
 https://manpages.debian.org/bookworm/apt/sources.list.5.pt.html
+
+---------------------------------------------------------
+
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+
+---------------------------------------------------------
+
