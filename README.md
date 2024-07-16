@@ -128,3 +128,12 @@ youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 
 ---------------------------------------------------------
 
+https://gcore.com/learning/linux-system-monitoring-command-line/
+https://www.vivaolinux.com.br/
+https://www.vivaolinux.com.br/artigo/Mamae-quero-descompactar-e-tambem-compactar-arquivos-no-terminal/
+https://www.google.com/search?client=firefox-b-lm&q=compilar+linux+gcc
+https://www.certificacaolinux.com.br/compilar-programas-no-linux-com-o-gcc/
+https://embarcados.com.br/linguagem-c-guia-completo/#Introducao-sobre-a-linguagem-C
+
+---------------------------------------------------------
+
