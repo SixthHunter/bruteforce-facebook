@@ -137,3 +137,8 @@ https://embarcados.com.br/linguagem-c-guia-completo/#Introducao-sobre-a-linguage
 
 ---------------------------------------------------------
 
+Versoes Java
+http://www.itsway.kiev.ua/files/JRE/
+
+---------------------------------------------------------
+
