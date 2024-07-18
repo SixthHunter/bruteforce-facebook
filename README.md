@@ -139,6 +139,8 @@ https://embarcados.com.br/linguagem-c-guia-completo/#Introducao-sobre-a-linguage
 
 Versoes Java
 http://www.itsway.kiev.ua/files/JRE/
-
+...
+http://dl-p30on.persiangig.com/Program/Download/
+http://www.oldversion.com/windows/download/winamp-5-551-full
 ---------------------------------------------------------
 
