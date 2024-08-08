@@ -1,4 +1,4 @@
-# Ajuda!
+0# Ajuda!
 
 Ainda estamos em desenvolvimento.
 
@@ -142,5 +142,146 @@ http://www.itsway.kiev.ua/files/JRE/
 ...
 http://dl-p30on.persiangig.com/Program/Download/
 http://www.oldversion.com/windows/download/winamp-5-551-full
+
+---------------------------------------------------------
+
+Servidor.c
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+
+#define PORT 8080
+#define BUFFER_SIZE 1024
+
+void copiarArquivo(char *origem, char *destino) {
+    FILE *src = fopen(origem, "rb");
+    FILE *dst = fopen(destino, "wb");
+    char buffer[BUFFER_SIZE];
+    size_t bytes;
+
+    if (src == NULL || dst == NULL) {
+        perror("Erro ao abrir arquivo");
+        return;
+    }
+
+    while ((bytes = fread(buffer, 1, BUFFER_SIZE, src)) > 0) {
+        fwrite(buffer, 1, bytes, dst);
+    }
+
+    fclose(src);
+    fclose(dst);
+}
+
+void atualizarArquivo(char *arquivo, char *conteudo) {
+    FILE *file = fopen(arquivo, "a");
+    if (file == NULL) {
+        perror("Erro ao abrir arquivo");
+        return;
+    }
+    fprintf(file, "%s", conteudo);
+    fclose(file);
+}
+
+void excluirArquivo(char *arquivo) {
+    if (remove(arquivo) == 0) {
+        printf("Arquivo excluído com sucesso\n");
+    } else {
+        perror("Erro ao excluir arquivo");
+    }
+}
+
+int main() {
+    int server_fd, new_socket;
+    struct sockaddr_in address;
+    int addrlen = sizeof(address);
+    char buffer[BUFFER_SIZE] = {0};
+
+    if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
+        perror("Falha ao criar socket");
+        exit(EXIT_FAILURE);
+    }
+
+    address.sin_family = AF_INET;
+    address.sin_addr.s_addr = INADDR_ANY;
+    address.sin_port = htons(PORT);
+
+    if (bind(server_fd, (struct sockaddr *)&address, sizeof(address)) < 0) {
+        perror("Falha ao fazer bind");
+        close(server_fd);
+        exit(EXIT_FAILURE);
+    }
+
+    if (listen(server_fd, 3) < 0) {
+        perror("Falha ao ouvir");
+        close(server_fd);
+        exit(EXIT_FAILURE);
+    }
+
+    printf("Servidor aguardando conexões...\n");
+
+    if ((new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t*)&addrlen)) < 0) {
+        perror("Falha ao aceitar conexão");
+        close(server_fd);
+        exit(EXIT_FAILURE);
+    }
+
+    read(new_socket, buffer, BUFFER_SIZE);
+    printf("Comando recebido: %s\n", buffer);
+
+    // Aqui você pode adicionar lógica para interpretar o comando e chamar as funções apropriadas
+
+    close(new_socket);
+    close(server_fd);
+    return 0;
+}
+
+Client.c
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+
+#define PORT 8080
+#define BUFFER_SIZE 1024
+
+int main() {
+    int sock = 0;
+    struct sockaddr_in serv_addr;
+    char buffer[BUFFER_SIZE] = {0};
+
+    if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+        perror("Falha ao criar socket");
+        exit(EXIT_FAILURE);
+    }
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(PORT);
+
+    if (inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr) <= 0) {
+        perror("Endereço inválido");
+        close(sock);
+        exit(EXIT_FAILURE);
+    }
+
+    if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
+        perror("Falha ao conectar");
+        close(sock);
+        exit(EXIT_FAILURE);
+    }
+
+    // Exemplo de comando para copiar um arquivo
+    char *comando = "copiar arquivo_origem.txt arquivo_destino.txt";
+    send(sock, comando, strlen(comando), 0);
+    printf("Comando enviado: %s\n", comando);
+
+    close(sock);
+    return 0;
+}
+
 ---------------------------------------------------------
 
