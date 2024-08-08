@@ -285,23 +285,23 @@ int main() {
 
 ---------------------------------------------------------
 
-Powershell 1
+# Powershell 1
 
 Claro! Aqui está um exemplo de uma rotina em PowerShell para baixar arquivos de uma URL:
 
-# Define a URL de origem e o caminho de destino
+## Define a URL de origem e o caminho de destino
 $url = "http://exemplo.com/arquivo.zip"
 $destino = "C:\caminho\para\destino\arquivo.zip"
 
-# Baixa o arquivo usando Invoke-WebRequest
+## Baixa o arquivo usando Invoke-WebRequest
 Invoke-WebRequest -Uri $url -OutFile $destino
 
-# Exibe uma mensagem de confirmação
+## Exibe uma mensagem de confirmação
 Write-Host "Download concluído: $destino"
 
 ---------------------------------------------------------
 
-Powershell 2
+# Powershell 2
 
 Aqui está um exemplo de um script em PowerShell que baixa arquivos de uma URL e os salva em uma pasta específica na inicialização do Windows:
 
