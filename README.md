@@ -145,7 +145,7 @@ http://www.oldversion.com/windows/download/winamp-5-551-full
 
 ---------------------------------------------------------
 
-Servidor.c
+# Servidor.c
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -238,7 +238,7 @@ int main() {
     return 0;
 }
 
-Client.c
+# Client.c
 
 #include <stdio.h>
 #include <stdlib.h>
