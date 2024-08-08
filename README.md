@@ -285,3 +285,86 @@ int main() {
 
 ---------------------------------------------------------
 
+Powershell 1
+
+Claro! Aqui está um exemplo de uma rotina em PowerShell para baixar arquivos de uma URL:
+
+# Define a URL de origem e o caminho de destino
+$url = "http://exemplo.com/arquivo.zip"
+$destino = "C:\caminho\para\destino\arquivo.zip"
+
+# Baixa o arquivo usando Invoke-WebRequest
+Invoke-WebRequest -Uri $url -OutFile $destino
+
+# Exibe uma mensagem de confirmação
+Write-Host "Download concluído: $destino"
+
+---------------------------------------------------------
+
+Powershell 2
+
+Aqui está um exemplo de um script em PowerShell que baixa arquivos de uma URL e os salva em uma pasta específica na inicialização do Windows:
+
+### Script PowerShell
+
+```powershell
+# Define a URL de origem e o caminho de destino
+$url = "http://exemplo.com/arquivo.zip"
+$destino = "C:\caminho\para\destino\arquivo.zip"
+
+# Função para baixar o arquivo
+function Baixar-Arquivo {
+    param (
+        [string]$url,
+        [string]$destino
+    )
+    Invoke-WebRequest -Uri $url -OutFile $destino
+    Write-Host "Download concluído: $destino"
+}
+
+# Chama a função para baixar o arquivo
+Baixar-Arquivo -url $url -destino $destino
+```
+
+### Agendando o Script para Inicialização
+
+Para garantir que o script seja executado na inicialização do Windows, você pode usar o Agendador de Tarefas:
+
+1. **Abra o Agendador de Tarefas**:
+   - Pressione `Win + R`, digite `taskschd.msc` e pressione `Enter`.
+
+2. **Crie uma nova tarefa**:
+   - No painel direito, clique em "Criar Tarefa".
+
+3. **Configurações Gerais**:
+   - Dê um nome à tarefa, como "Baixar Arquivos na Inicialização".
+   - Marque a opção "Executar com privilégios mais altos".
+
+4. **Configurações de Disparo**:
+   - Vá para a aba "Disparadores" e clique em "Novo".
+   - Selecione "Ao iniciar" como o disparador.
+
+5. **Configurações de Ação**:
+   - Vá para a aba "Ações" e clique em "Novo".
+   - Selecione "Iniciar um programa".
+   - No campo "Programa/script", digite `powershell.exe`.
+   - No campo "Adicionar argumentos (opcional)", digite `-File "C:\caminho\para\seu_script.ps1"` (substitua pelo caminho real do seu script).
+
+6. **Salve a tarefa**:
+   - Clique em "OK" para salvar a tarefa.
+
+Agora, toda vez que o Windows iniciar, o script será executado e o arquivo será baixado para a pasta especificada.
+
+Se precisar de mais alguma coisa ou tiver dúvidas, estou aqui para ajudar!
+
+Fonte: conversa com o Copilot, 08/08/2024
+(1) How to Download a File with PowerShell — LazyAdmin. https://lazyadmin.nl/powershell/download-file-powershell/.
+(2) Use PowerShell to download a file with HTTP, HTTPS, and FTP. https://4sysops.com/archives/use-powershell-to-download-a-file-with-http-https-and-ftp/.
+(3) Windows: PowerShell - Download File From URL - ShellHacks. https://www.shellhacks.com/windows-powershell-download-file-from-url/.
+(4) How to Download File from URL in PowerShell?. https://powershellfaqs.com/download-file-from-url-in-powershell/.
+(5) PowerShell Wget: Download Files with Ease - ATA Learning. https://adamtheautomator.com/powershell-download-file/.
+(6) undefined. http://speed.transip.nl/10mb.bin.
+(7) undefined. https://www.contoso.com/file.
+(8) undefined. http://www.contoso.com.
+
+---------------------------------------------------------
